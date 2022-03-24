@@ -1,0 +1,47 @@
+body{
+    background-color: #111;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "nav nav"
+    "main aside"
+    "footer footer";
+}
+nav {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+  }
+
+  nav li{
+      display: inline-block;
+      background-color: #fff;
+      padding: 10px 20px;
+
+     
+  }
+  main{
+      color: white;
+  }
+main h2{
+    text-transform: uppercase;
+}
+aside{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:5px 10px black;
+}
+aside img{
+    width: 20em;
+    height: 20em;
+    border-radius: 100%;
+    
+    
+}
+
+
+

@@ -1,0 +1,18 @@
+nav{
+    background-color: black;
+    grid-area: nav;
+}
+main {
+    background-color: #111;
+    grid-area: main;
+    height: 45em;
+}
+aside {
+    background-color: #111;
+    grid-area: aside;
+}
+
+footer {
+    background-color: red;
+    grid-area: footer;
+}
